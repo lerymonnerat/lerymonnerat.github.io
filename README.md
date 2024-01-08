@@ -1,2 +1,2 @@
 # lerymonnerat.github.io
-site personnel
+Léry monnerat, élève ingénieur à [ENSTA Paris](https://www.ensta-paris.fr)
