@@ -131,7 +131,7 @@
     "keywords": ["tipe","mathématiques"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "280"
+    "wordCount": "289"
   }
   </script>
     
@@ -447,6 +447,37 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Sommaire
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#sujet">Sujet</a></li>
+            <li><a href="#méthode-naïve">Méthode naïve</a></li>
+            <li><a href="#action-de-groupe">Action de groupe</a></li>
+            <li><a href="#généralisation-avec-polya">Généralisation avec Polya</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <p>
 
@@ -455,12 +486,12 @@
   href="/uploads/tipe_1a_maths.pdf"  target="_blank" rel="noopener"
 >SLIDES</a>
 </p>
-<p>Ce tipe était un problème de dénombrement :  quel est le  nombre de coloriage possible d&rsquo;un collier de \(n\) perles avec \(p\) couleurs ?</p>
+<h4 id="sujet" class="relative group">Sujet <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sujet" aria-label="Ancre">#</a></span></h4><p>Ce tipe était un problème de dénombrement :  quel est le  nombre de coloriage possible d&rsquo;un collier de \(n\) perles avec \(p\) couleurs ?</p>
 <p>Evidemment, certains coloriages sont les mêmes (isomorphes) lorsque l&rsquo;on tourne le collier (rotation), ou le retourne (symétrie).</p>
-<p>La première stratégie a été de générer toutes les configurations possibles, et à implanter un algorithme du type Erasthostène. On calcule, pour une configuration donnée,
+<h4 id="méthode-naïve" class="relative group">Méthode naïve <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#m%c3%a9thode-na%c3%afve" aria-label="Ancre">#</a></span></h4><p>La première stratégie a été de générer toutes les configurations possibles, et à implanter un algorithme du type Erasthostène. On calcule, pour une configuration donnée,
 toutes ses images par le groupe diedral \(D_n\), que l&rsquo;on supprime.</p>
 <p>Malheureusement,  Cette solution ne fonctionne que pour des &ldquo;petites&rdquo; instances du problème.</p>
-<p>\(D_n\) ayant une action naturelle de groupe sur l&rsquo;ensemble des colorations, la formule de Burnside permet heureusement un calcul direct du nombre
+<h4 id="action-de-groupe" class="relative group">Action de groupe <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#action-de-groupe" aria-label="Ancre">#</a></span></h4><p>\(D_n\) ayant une action naturelle de groupe sur l&rsquo;ensemble des colorations, la formule de Burnside permet heureusement un calcul direct du nombre
 d&rsquo;orbites (colorations différentes), pourvu qu&rsquo;on connaisse pour chaque transformation \(g\) son nombre de points fixes \(|Fix(g)|\).
 $$
 n_{orb} = \frac{1}{|G|} \sum_{g\in G} |Fix(g)|
@@ -477,7 +508,7 @@ $$
 $$</li>
 </ul>
 <p>La méthode peut être encore utilisée  pour  des colorations avec contraintes sur le nombre de perles de chaque couleurs, mais au cas par cas.</p>
-<p>Heureusement, une généralisation pour la coloration avec contraintes existe avec un théorème de Polya, qui fait intervenir des polynomes multivariés.
+<h4 id="généralisation-avec-polya" class="relative group">Généralisation avec Polya <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#g%c3%a9n%c3%a9ralisation-avec-polya" aria-label="Ancre">#</a></span></h4><p>Heureusement, une généralisation pour la coloration avec contraintes existe avec un théorème de Polya, qui fait intervenir des polynomes multivariés.
 $$
 W=\frac{1}{|G|}\sum_{g\in G}\prod_{i=1}^{n}(X_1^i+X_2^i+\ldots + X_p^i)^{e_i(g)}
 $$
