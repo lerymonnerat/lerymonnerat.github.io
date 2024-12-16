@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Histoire on Léry Monnerat</title>
-    <link>http://localhost:1313/tags/histoire/</link>
+    <link>https://lerymonnerat.github.io/tags/histoire/</link>
     <description>Recent content in Histoire on Léry Monnerat</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/histoire/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lerymonnerat.github.io/tags/histoire/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projet de culture générale (ENSTA 1A)</title>
-      <link>http://localhost:1313/projet/ensta/fr/</link>
+      <link>https://lerymonnerat.github.io/projet/ensta/fr/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/ensta/fr/</guid>
+      <guid>https://lerymonnerat.github.io/projet/ensta/fr/</guid>
       <description></description>
     </item>
   </channel>
