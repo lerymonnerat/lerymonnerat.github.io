@@ -131,7 +131,7 @@
     "keywords": ["tipe","mathématiques"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "298"
+    "wordCount": "300"
   }
   </script>
     
@@ -527,6 +527,17 @@
 </p>
 <h4 id="sujet" class="relative group">Sujet <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sujet" aria-label="Ancre">#</a></span></h4><p>Ce tipe était un problème de dénombrement :  quel est le  nombre de coloriage possible d&rsquo;un collier de \(n\) perles avec \(p\) couleurs ?</p>
 <p>Evidemment, certains coloriages sont les mêmes (isomorphes) lorsque l&rsquo;on tourne le collier (rotation), ou le retourne (symétrie).</p>
+<div align="center">
+
+  <figure><img src="/collier.svg"
+    alt="invariance par transformations" width="100%"><figcaption>
+      <p>n=5, p=3</p>
+    </figcaption>
+</figure>
+
+
+
+</div>
 <h4 id="méthode-naïve" class="relative group">Méthode naïve <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#m%c3%a9thode-na%c3%afve" aria-label="Ancre">#</a></span></h4><p>La première stratégie a été de générer toutes les configurations possibles, et à implanter un algorithme du type Erasthostène. On calcule, pour une configuration donnée,
 toutes ses images par le groupe diedral \(D_n\), que l&rsquo;on supprime.</p>
 <p>Malheureusement,  Cette solution ne fonctionne que pour des &ldquo;petites&rdquo; instances du problème.</p>
