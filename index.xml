@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages de Léry Monnerat on Léry Monnerat</title>
-    <link>https://lerymonnerat.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Pages de Léry Monnerat on Léry Monnerat</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 12 Dec 2024 19:57:04 +0100</lastBuildDate>
-    <atom:link href="https://lerymonnerat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://lerymonnerat.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 12 Dec 2024 19:57:04 +0100</pubDate>
-      <guid>https://lerymonnerat.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet de culture générale (ENSTA 1A)</title>
-      <link>https://lerymonnerat.github.io/projet/ensta/fr/</link>
+      <link>http://localhost:1313/projet/ensta/fr/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/ensta/fr/</guid>
+      <guid>http://localhost:1313/projet/ensta/fr/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet informatique (ENSTA 1A)</title>
-      <link>https://lerymonnerat.github.io/projet/ensta/in104/</link>
+      <link>http://localhost:1313/projet/ensta/in104/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/ensta/in104/</guid>
+      <guid>http://localhost:1313/projet/ensta/in104/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet de simulation (ENSTA 1A)</title>
-      <link>https://lerymonnerat.github.io/projet/ensta/mo102/</link>
+      <link>http://localhost:1313/projet/ensta/mo102/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/ensta/mo102/</guid>
+      <guid>http://localhost:1313/projet/ensta/mo102/</guid>
       <description></description>
     </item>
     <item>
       <title>Milieux granulaires - Chaîne logistique de la construction en ville</title>
-      <link>https://lerymonnerat.github.io/projet/tipe/tipe-3/</link>
+      <link>http://localhost:1313/projet/tipe/tipe-3/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/tipe/tipe-3/</guid>
+      <guid>http://localhost:1313/projet/tipe/tipe-3/</guid>
       <description></description>
     </item>
     <item>
       <title>Coloration de colliers</title>
-      <link>https://lerymonnerat.github.io/projet/tipe/tipe-1/</link>
+      <link>http://localhost:1313/projet/tipe/tipe-1/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/tipe/tipe-1/</guid>
+      <guid>http://localhost:1313/projet/tipe/tipe-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Étude du profil d’épaisseur d’une lame de savon</title>
-      <link>https://lerymonnerat.github.io/projet/tipe/tipe-2/</link>
+      <link>http://localhost:1313/projet/tipe/tipe-2/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lerymonnerat.github.io/projet/tipe/tipe-2/</guid>
+      <guid>http://localhost:1313/projet/tipe/tipe-2/</guid>
       <description></description>
     </item>
   </channel>
