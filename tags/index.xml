@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Léry Monnerat</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://lerymonnerat.github.io/tags/</link>
     <description>Recent content in Tags on Léry Monnerat</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lerymonnerat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensta</title>
-      <link>http://localhost:1313/tags/ensta/</link>
+      <link>https://lerymonnerat.github.io/tags/ensta/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ensta/</guid>
+      <guid>https://lerymonnerat.github.io/tags/ensta/</guid>
       <description></description>
     </item>
     <item>
       <title>Histoire</title>
-      <link>http://localhost:1313/tags/histoire/</link>
+      <link>https://lerymonnerat.github.io/tags/histoire/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/histoire/</guid>
+      <guid>https://lerymonnerat.github.io/tags/histoire/</guid>
       <description></description>
     </item>
     <item>
       <title>Informatique</title>
-      <link>http://localhost:1313/tags/informatique/</link>
+      <link>https://lerymonnerat.github.io/tags/informatique/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/informatique/</guid>
+      <guid>https://lerymonnerat.github.io/tags/informatique/</guid>
       <description></description>
     </item>
     <item>
       <title>Physique</title>
-      <link>http://localhost:1313/tags/physique/</link>
+      <link>https://lerymonnerat.github.io/tags/physique/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/physique/</guid>
+      <guid>https://lerymonnerat.github.io/tags/physique/</guid>
       <description></description>
     </item>
     <item>
       <title>Tipe</title>
-      <link>http://localhost:1313/tags/tipe/</link>
+      <link>https://lerymonnerat.github.io/tags/tipe/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tipe/</guid>
+      <guid>https://lerymonnerat.github.io/tags/tipe/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathématiques</title>
-      <link>http://localhost:1313/tags/math%C3%A9matiques/</link>
+      <link>https://lerymonnerat.github.io/tags/math%C3%A9matiques/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/math%C3%A9matiques/</guid>
+      <guid>https://lerymonnerat.github.io/tags/math%C3%A9matiques/</guid>
       <description></description>
     </item>
   </channel>
